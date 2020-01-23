@@ -1,89 +1,10 @@
-# coding: utf-8
-
-
 import numpy as np
 import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib.colors import ListedColormap
 
-# Copyright (c) 2019 [Sebastian Raschka](sebastianraschka.com)
-# 
-# https://github.com/rasbt/python-machine-learning-book-3rd-edition
-# 
-# [MIT License](https://github.com/rasbt/python-machine-learning-book-3rd-edition/blob/master/LICENSE.txt)
-
-# # Python Machine Learning - Code Examples
-
-# # Chapter 2 - Training Machine Learning Algorithms for Classification
-
-# Note that the optional watermark extension is a small IPython notebook plugin that I developed to make the code reproducible. You can just skip the following line(s).
-
-
-
-
-
-# *The use of `watermark` is optional. You can install this Jupyter extension via*  
-# 
-#     conda install watermark -c conda-forge  
-# 
-# or  
-# 
-#     pip install watermark   
-# 
-# *For more information, please see: https://github.com/rasbt/watermark.*
-
-# ### Overview
-# 
-
-# - [Artificial neurons – a brief glimpse into the early history of machine learning](#Artificial-neurons-a-brief-glimpse-into-the-early-history-of-machine-learning)
-#     - [The formal definition of an artificial neuron](#The-formal-definition-of-an-artificial-neuron)
-#     - [The perceptron learning rule](#The-perceptron-learning-rule)
-# - [Implementing a perceptron learning algorithm in Python](#Implementing-a-perceptron-learning-algorithm-in-Python)
-#     - [An object-oriented perceptron API](#An-object-oriented-perceptron-API)
-#     - [Training a perceptron model on the Iris dataset](#Training-a-perceptron-model-on-the-Iris-dataset)
-# - [Adaptive linear neurons and the convergence of learning](#Adaptive-linear-neurons-and-the-convergence-of-learning)
-#     - [Minimizing cost functions with gradient descent](#Minimizing-cost-functions-with-gradient-descent)
-#     - [Implementing an Adaptive Linear Neuron in Python](#Implementing-an-Adaptive-Linear-Neuron-in-Python)
-#     - [Improving gradient descent through feature scaling](#Improving-gradient-descent-through-feature-scaling)
-#     - [Large scale machine learning and stochastic gradient descent](#Large-scale-machine-learning-and-stochastic-gradient-descent)
-# - [Summary](#Summary)
-
-
-
-
-
-
-# # Artificial neurons - a brief glimpse into the early history of machine learning
-
-
-
-
-
-# ## The formal definition of an artificial neuron
-
-
-
-
-
-# ## The perceptron learning rule
-
-
-
-
-
-
-
-
-
-
-# # Implementing a perceptron learning algorithm in Python
-
-# ## An object-oriented perceptron API
-
-
-
-
+# Implementing a perceptron learning algorithm in Python- An object-oriented perceptron API
 
 class Perceptron(object):
     """Perceptron classifier.
@@ -599,7 +520,3 @@ ada_sgd.partial_fit(X_std[0, :], y[0])
 # --- 
 # 
 # Readers may ignore the following cell
-
-
-
-
